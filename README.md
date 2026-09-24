@@ -33,7 +33,8 @@ To compile the main source code or the testing setup using g++:
 
 PowerShell
 g++ -std=c++17 echo_main.cpp -o main_echo.exe
-🧪 Test Execution Pipeline & Output Generation
+
+Test Execution Pipeline & Output Generation
 Test Execution Strategy
 test_cases_typed_out.txt: Contains terminal inputs designed to stress-test input validation bounds, error handling, and invalid inputs.
 
