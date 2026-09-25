@@ -15,12 +15,13 @@ EECE 7205 (FCE)/
     │   ├── main.echo.exe                     # Compiled test executable
     │   └── main_test                         # Additional test runner/executable
     ├── results/
+    |   |__ Assignment1(FCE)_Bodnurmath.pdf   # PDF file report containing explanation derivations and pseudocode 
     │   ├── results.txt                       # Output containing full validation & invalid input tests
     │   ├── results_valid.txt                 # Output containing valid test cases and edge cases only
-    │   └── test_cases_used/
-    │       ├── test_cases_typed_out.txt      # Input cases testing input validation bounds
-    │       └── test_cases_valid_only.txt     # Input cases with standard and edge cases only
-    └── Questions/                            # Assignment prompt and questions
+    │   ├── test_cases_typed_out.txt      # Input cases testing input validation bounds
+    │   └── test_cases_valid_only.txt     # Input cases with standard and edge cases only
+    └── questions/
+        |__ Problems_Assignment_1.pdf                        # Assignment prompt and questions
 
 Compilation & Execution Instructions
 Prerequisites

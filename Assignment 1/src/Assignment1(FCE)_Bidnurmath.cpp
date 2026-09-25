@@ -1360,4 +1360,105 @@ void problem2solutionDNFalgo(){
     this_thread::sleep_for(chrono::seconds(3));
 
 }
+/* the below commented out solution uses a fenwick tree for problem 10
+ // Fenwick Tree (Binary Indexed Tree) Class
+class FenwickTree {
+private:
+    int size;
+    vector<long long> tree;
 
+public:
+    FenwickTree(int n) : size(n), tree(n + 1, 0) {}
+
+    // Add delta to index i (1-based)
+    void update(int i, long long delta) {
+        for (; i <= size; i += i & (-i)) {
+            tree[i] += delta;
+        }
+    }
+
+    // Query sum of frequencies in range [1, i]
+    long long query(int i) {
+        long long sum = 0;
+        for (; i > 0; i -= i & (-i)) {
+            sum += tree[i];
+        }
+        return sum;
+    }
+};
+
+
+
+void problem10FenwickSolution() {
+   for ref
+    input - unsorted array of integers
+    task - count pairs (i, j) where i < j and values[i] > values[j] using a Fenwick Tree
+    output - total inversion count using a 64-bit integer
+    
+
+    int n;
+    while (true) {
+        cout << "enter size of array: ";
+        string line;
+        getline(cin, line);
+        stringstream ss(line);
+        char extra;
+        if (!(ss >> n) || n < 0 || (ss >> extra)) {
+            cout << "invalid input: enter a non-negative integer\n";
+            continue;
+        }
+        break;
+    }
+
+    if (n == 0) {
+        cout << "inversion count: 0\n";
+        return;
+    }
+
+    vector<int> arr(n);
+    cout << "enter array values:\n";
+    for (int i = 0; i < n; i++) {
+        while (true) {
+            cout << "element " << i + 1 << ": ";
+            string line;
+            getline(cin, line);
+            stringstream ss(line);
+            int val;
+            char extra;
+            if (!(ss >> val) || (ss >> extra)) {
+                cout << "invalid input: enter an integer\n";
+                continue;
+            }
+            arr[i] = val;
+            break;
+        }
+    }
+
+    // coordinate compression
+    vector<int> sortedArr = arr;
+    sort(sortedArr.begin(), sortedArr.end());
+    // remove duplicates to get unique sorted ranks
+    sortedArr.erase(unique(sortedArr.begin(), sortedArr.end()), sortedArr.end());
+
+    // initialize fenwick tree of size equal to number of unique elements
+    int numUnique = sortedArr.size();
+    FenwickTree bit(numUnique);
+
+    // traverse right to left and query
+    long long totalInversions = 0;
+    for (int i = n - 1; i >= 0; i--) {
+        // find 1 based rank of arr[i]
+        int rank = lower_bound(sortedArr.begin(), sortedArr.end(), arr[i]) - sortedArr.begin() + 1;
+
+        // query count of elements to the right that are strictly smaller than arr[i]
+        totalInversions += bit.query(rank - 1);
+
+        // insert current elements rank into fenwick tree
+        bit.update(rank, 1);
+    }
+
+    // print output
+    cout << "inversion count: " << totalInversions << "\n\n";
+
+    this_thread::sleep_for(chrono::seconds(3));
+} */
