@@ -318,8 +318,8 @@ public:
         while (i < pathA.size() && i < pathB.size() && pathA[i] == pathB[i]) ++i;
         return pathA[i - 1]; // last value the two paths share
     }
-    /* method 1 runs two full searches plus a compare and stores both paths, method 2 does one pass 
-    (example lca(21, 3): 48 steps vs 41 steps) */
+    /* method 1 runs two full searches plus a compare and stores both paths method 2 does one pass 
+    (example lca(21 3): 48 steps vs 41 steps) */
 
 
 
@@ -340,7 +340,7 @@ public:
         for (size_t i = 0; i < inorder.size(); ++i) inMap[inorder[i]] = i;
         return buildTreeHelper(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1, inMap);
     }
-    /* linear search takes o(n^2) worst case, hash map lookup drops it to theta(n) */
+    /* linear search takes o(n^2) worst case hash map lookup drops it to theta(n) */
 
 
 
@@ -408,7 +408,7 @@ public:
     bool isValidBST(TreeNode* node) {
         return isValidBSTHelper(node, LLONG_MIN, LLONG_MAX);
     }
-    /* range passing validates top-down efficiently, alternative uses inorder traversal check */
+    /* range passing validates top-down efficiently alternative uses inorder traversal check */
 
     // question 14 twist: second solution using inorder traversal (values must be strictly increasing)
     bool isValidBSTInorder(TreeNode* node, long long& prev) {
@@ -418,7 +418,7 @@ public:
         prev = node->val;
         return isValidBSTInorder(node->right, prev);
     }
-    /* range method 5n + 3 steps vs inorder 7n + 2 steps, best case range o(1) and inorder o(h) because 
+    /* range method 5n + 3 steps vs inorder 7n + 2 steps best case range o(1) and inorder o(h) because 
     it has to reach the leftmost node first */
 
 

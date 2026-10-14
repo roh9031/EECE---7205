@@ -1,16 +1,9 @@
-# EECE 7205 (FCE) — Assignment 1
+# EECE 7205 (FCE) — Assignments 
 
-This repository contains the source code, results, and test suite for **Assignment 1** in **EECE 7205 (Fundamentals of Computer Engineering)**.
-
----
-
-##  Repository Structure
-
-# EECE 7205 (FCE) — Assignment 2
-
-This repository contains the source code, results, and test suite for **Assignment 2** in **EECE 7205 (Fundamentals of Computer Engineering)**, focusing on Object-Oriented Binary Tree data structures and advanced algorithmic operations.
+This repository contains the source code, results, and test suite for **Assignment 1** and **Assignemnt 2** in **EECE 7205 (Fundamentals of Computer Engineering)**.
 
 ---
+
 
 ## Repository Structure
 
