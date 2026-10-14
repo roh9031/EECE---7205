@@ -16,13 +16,13 @@ EECE 7205 (FCE)/
 │   │   ├── main.echo.exe                      # Compiled test executable
 │   │   └── main_test                          # Additional test runner/executable
 │   ├── results/
-│   │   |__ Assignment1(FCE)_Bidnurmath.pdf    # PDF file report containing explanations ans pseudocode
+│   │   |__ Assignment1(FCE)_Bidnurmath.pdf    # PDF file report containing explanations and pseudocode
 │   │   ├── results.txt                        # Output containing full validation & invalid input tests
 │   │   ├── results_valid.txt                  # Output containing valid test cases and edge cases only
 │   │   ├── test_cases_typed_out.txt           # Input cases testing input validation bounds
 │   │   └── test_cases_valid_only.txt          # Input cases with standard and edge cases only
 │   └── questions/
-│       |__ Problems_Assignment_1.pdf          # Assignment prompt and questions
+│       |__ Problems_Assignment_1.pdf          # Assignment questions
 │
 └── Assignment 2/
     ├── src/
@@ -30,11 +30,11 @@ EECE 7205 (FCE)/
     │   ├── runner.cpp                         # Helper source file to record inputs & outputs via EchoBuf
     │   └── assignment2_run.exe                # Compiled test executable
     ├── results/
-    │   ├── Assignment_2_FCE_Bidnurmath.pdf    # PDF file report containing explanations ans pseudocode
+    │   ├── Assignment_2_FCE_Bidnurmath.pdf    # PDF file report containing explanations and pseudocode
     │   ├── output.txt                        # Output containing results
     │   
     └── questions/
-        └── Problems_Assignment_2.pdf          # Assignment prompt and questions
+        └── Problems_Assignment_2.pdf          # Assignment questions
 
 
 Compilation & Execution Instructions (Assignment 2)
@@ -54,6 +54,9 @@ To run the compiled test executable and generate/capture your outputs into a tex
 
 PowerShell
 .\assignment2_run.exe > output.txt
+
+
+
 
 
 Compilation & Execution Instructions (Assignment 1)
