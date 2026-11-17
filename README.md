@@ -31,22 +31,23 @@ EECE 7205 (FCE)/
 |   │   └── assignment2_run.exe                # Compiled test executable
 |   ├── results/
 |   │   ├── Assignment_2_FCE_Bidnurmath.pdf    # PDF file report containing explanations and pseudocode
-|   │   ├── output.txt                        # Output containing results
+|   │   ├── output.txt                         # Output containing results
 |   │   
 |   └── questions/
 |       └── Problems_Assignment_2.pdf          # Assignment questions
 |
 └── ├── Assignment 3/
-    ├── src/
-    │   ├── gold_mine.cpp                   # Main OOP binary tree solutions (Questions 1–15)
-    │   ├── lps.cpp                         # Helper source file to record inputs & outputs via EchoBuf
-    │   └── max_rectangle.cpp               # Compiled test executable
-    ├── results/
-    │   ├── Assignment_3_FCE_Bidnurmath.pdf   # PDF file report containing explanations and pseudocode
-    │   ├── output.txt                        # Output containing results
-    │   
-    └── questions/
-        └── Problems_Assignment_3.pdf          # Assignment questions
+|   ├── src/
+|   │   ├── gold_mine.cpp                   # question 3 - gols mine cpp solution
+|   │   ├── lps.cpp                         # question 6 - longest palindromic sequence cpp solution
+|   │   └── max_rectangle.cpp               # question 9 - max rectangle cpp solution
+|   ├── results/
+|   │   ├── Assignment_3_FCE_Bidnurmath.pdf   # PDF file report containing explanations and pseudocode
+|   │   ├── output.txt                        # Output containing results
+|   │   
+|   └── questions/
+|       └── Problems_Assignment_3.pdf          # Assignment questions
+|
 
 Compilation & Execution Instructions (Assignment 2)
 1. Prerequisites
