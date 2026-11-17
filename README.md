@@ -24,18 +24,29 @@ EECE 7205 (FCE)/
 │   └── questions/
 │       |__ Problems_Assignment_1.pdf          # Assignment questions
 │
-└── Assignment 2/
+├── Assignment 2/
+|   ├── src/
+|   │   ├── Assignment_2_FCE_Bidnurmath.cpp    # Main OOP binary tree solutions (Questions 1–15)
+|   │   ├── runner.cpp                         # Helper source file to record inputs & outputs via EchoBuf
+|   │   └── assignment2_run.exe                # Compiled test executable
+|   ├── results/
+|   │   ├── Assignment_2_FCE_Bidnurmath.pdf    # PDF file report containing explanations and pseudocode
+|   │   ├── output.txt                        # Output containing results
+|   │   
+|   └── questions/
+|       └── Problems_Assignment_2.pdf          # Assignment questions
+|
+└── ├── Assignment 3/
     ├── src/
-    │   ├── Assignment_2_FCE_Bidnurmath.cpp    # Main OOP binary tree solutions (Questions 1–15)
-    │   ├── runner.cpp                         # Helper source file to record inputs & outputs via EchoBuf
-    │   └── assignment2_run.exe                # Compiled test executable
+    │   ├── gold_mine.cpp                   # Main OOP binary tree solutions (Questions 1–15)
+    │   ├── lps.cpp                         # Helper source file to record inputs & outputs via EchoBuf
+    │   └── max_rectangle.cpp               # Compiled test executable
     ├── results/
-    │   ├── Assignment_2_FCE_Bidnurmath.pdf    # PDF file report containing explanations and pseudocode
+    │   ├── Assignment_3_FCE_Bidnurmath.pdf   # PDF file report containing explanations and pseudocode
     │   ├── output.txt                        # Output containing results
     │   
     └── questions/
-        └── Problems_Assignment_2.pdf          # Assignment questions
-
+        └── Problems_Assignment_3.pdf          # Assignment questions
 
 Compilation & Execution Instructions (Assignment 2)
 1. Prerequisites

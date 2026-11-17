@@ -1,0 +1,10 @@
+most gold: 12
+path: 2 (1,0) 6 (2,1) 4 (2,2)
+most gold: 16
+path: 5 (2,0) 2 (1,1) 4 (1,2) 5 (0,3)
+
+BBABCBCAB: length 7, for example BACBCAB
+AGBDBA: length 5, for example ABDBA
+
+max sum: 29
+top-left: (1,1), bottom-right: (3,3)
